@@ -1,0 +1,51 @@
+button {
+    width: 3em;
+    height: 3em;
+    font-size: 1.4em;
+    border: none;
+    border-radius: 2em;
+    margin: 0.25em;
+    
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.wrapper {
+    background-color: #1C1C1C;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.operator {
+    background-color: #FF9500;
+    color: white;
+}
+
+.number {
+    background-color: #505050;
+    color: white;
+}
+
+.other {
+    background-color: #D4D4D2;
+    color: black;
+}
+
+.zero {
+    width: 6.6em;
+    padding-left: 1.25em;
+    text-align: left;
+}
+
+.result {
+    color: white;
+    display: flex;
+    justify-content: right;
+    margin-right: 1.2em;
+}
+
+h1 {
+    color: white;
+}
